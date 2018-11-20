@@ -22,8 +22,8 @@
 <link rel="stylesheet" type="text/css"  href="{{ secure_asset('css/style.css') }}">
 <link rel="stylesheet" type="text/css" href=" {{ secure_asset ('css/animate.css') }}">
 <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="{{ asset ('js/modernizr.custom.js') }}"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="{{ secure_asset ('js/modernizr.custom.js') }}"></script>
 
 </head>
 
@@ -81,7 +81,7 @@ function closeNav() {
 }
 </script>
 
-<script type="text/javascript" src=" {{ asset ('js/jquery.1.11.1.js') }}"></script>
+<script type="text/javascript" src=" {{ secure_asset ('js/jquery.1.11.1.js') }}"></script>
 <script type="text/javascript">
     $(function(){
 new WOW().init(); 
